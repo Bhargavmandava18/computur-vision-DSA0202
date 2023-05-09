@@ -1,0 +1,9 @@
+import cv2
+import numpy as np
+
+kernel = np.ones((5,5),np.uint8)
+print(kernel)
+
+path = "C://Users\BHARGAV\Pictures\Screenshots\Screenshot (3).png"
+img =  cv2.imread(path)
+cv2.imshow("Lena",img)
